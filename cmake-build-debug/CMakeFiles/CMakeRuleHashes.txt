@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+6239ad33360147366a9ce2c38f3b033f CMakeFiles/adc_test.elf.bin
+60b4d86920b7d4390d46da9a316a17b3 CMakeFiles/adc_test.elf.hex

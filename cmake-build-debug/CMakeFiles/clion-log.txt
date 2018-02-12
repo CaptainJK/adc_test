@@ -1,0 +1,8 @@
+/opt/clion-2017.2.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/captain/McuWorkspace/adc_test
+-- No STM32_FAMILY specified, trying to get it from STM32_CHIP
+-- Selected STM32 family: F1
+-- Chibios version:17
+-- STM32F103C8T6 has 64KiB of flash memory and 20KiB of RAM
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/captain/McuWorkspace/adc_test/cmake-build-debug

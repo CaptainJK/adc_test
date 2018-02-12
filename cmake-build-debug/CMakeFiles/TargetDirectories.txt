@@ -1,0 +1,5 @@
+/home/captain/McuWorkspace/adc_test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/captain/McuWorkspace/adc_test/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/captain/McuWorkspace/adc_test/cmake-build-debug/CMakeFiles/adc_test.elf.bin.dir
+/home/captain/McuWorkspace/adc_test/cmake-build-debug/CMakeFiles/adc_test.elf.hex.dir
+/home/captain/McuWorkspace/adc_test/cmake-build-debug/CMakeFiles/adc_test.elf.dir

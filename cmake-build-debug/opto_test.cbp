@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="opto_test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\stm32-cmake\;CMake Files\..\stm32-cmake\cmake\;CMake Files\..\stm32-cmake\cmake\ChibiOS\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/captain/McuWorkspace/adc_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/captain/McuWorkspace/adc_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/captain/McuWorkspace/adc_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/captain/McuWorkspace/adc_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/captain/McuWorkspace/adc_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/captain/McuWorkspace/adc_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/captain/McuWorkspace/adc_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/captain/McuWorkspace/adc_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/captain/McuWorkspace/adc_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/captain/McuWorkspace/adc_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opto_test.elf.bin">
+				<Option working_dir="/home/captain/McuWorkspace/adc_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/captain/McuWorkspace/adc_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 opto_test.elf.bin"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/captain/McuWorkspace/adc_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/captain/McuWorkspace/adc_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/captain/McuWorkspace/adc_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opto_test.elf.hex">
+				<Option working_dir="/home/captain/McuWorkspace/adc_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/captain/McuWorkspace/adc_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 opto_test.elf.hex"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/captain/McuWorkspace/adc_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/captain/McuWorkspace/adc_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/captain/McuWorkspace/adc_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/captain/McuWorkspace/adc_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/captain/McuWorkspace/adc_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/captain/McuWorkspace/adc_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/captain/McuWorkspace/adc_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/captain/McuWorkspace/adc_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opto_test.elf">
+				<Option output="/home/captain/McuWorkspace/adc_test/cmake-build-debug/opto_test.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/captain/McuWorkspace/adc_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTM32F1"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add option="-DCORTEX_USE_FPU=FALSE"/>
+					<Add directory="/home/captain/McuWorkspace/adc_test"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/rt/include"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/common/ports/ARMCMx"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/license"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/common/ports/ARMCMx/compilers/GCC"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/common/startup/ARMCMx/devices/STM32F1xx"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/common/oslib/include"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/common/ext/CMSIS/include"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/common/ext/CMSIS/ST/STM32F1xx"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/include"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/osal/rt"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/STM32/STM32F1xx"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/common/ARMCMx"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/STM32/LLD/DMAv1"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/STM32/LLD/GPIOv1"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/STM32/LLD/TIMv1"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/STM32/LLD/USARTv1"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/STM32/LLD/USBv1"/>
+					<Add directory="/home/captain/McuWorkspace/adc_test/config"/>
+					<Add directory="/home/captain/McuWorkspace/adc_test/board"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/captain/McuWorkspace/adc_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 opto_test.elf"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/captain/McuWorkspace/adc_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/captain/McuWorkspace/adc_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/captain/McuWorkspace/adc_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opto_test.elf/fast">
+				<Option output="/home/captain/McuWorkspace/adc_test/cmake-build-debug/opto_test.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/captain/McuWorkspace/adc_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSTM32F1"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add option="-DCORTEX_USE_FPU=FALSE"/>
+					<Add directory="/home/captain/McuWorkspace/adc_test"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/rt/include"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/common/ports/ARMCMx"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/license"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/common/ports/ARMCMx/compilers/GCC"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/common/startup/ARMCMx/devices/STM32F1xx"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/common/oslib/include"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/common/ext/CMSIS/include"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/common/ext/CMSIS/ST/STM32F1xx"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/include"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/osal/rt"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/STM32/STM32F1xx"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/common/ARMCMx"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/STM32/LLD/DMAv1"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/STM32/LLD/GPIOv1"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/STM32/LLD/TIMv1"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/STM32/LLD/USARTv1"/>
+					<Add directory="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/STM32/LLD/USBv1"/>
+					<Add directory="/home/captain/McuWorkspace/adc_test/config"/>
+					<Add directory="/home/captain/McuWorkspace/adc_test/board"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/captain/McuWorkspace/adc_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 opto_test.elf/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/captain/McuWorkspace/adc_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/captain/McuWorkspace/adc_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/captain/McuWorkspace/adc_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/common/oslib/src/chheap.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/common/oslib/src/chmboxes.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/common/oslib/src/chmemcore.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/common/oslib/src/chmempools.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/common/ports/ARMCMx/chcore.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/common/ports/ARMCMx/chcore.h">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/common/ports/ARMCMx/chcore_v7m.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/common/ports/ARMCMx/chcore_v7m.h">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/common/ports/ARMCMx/compilers/GCC/chcoreasm_v7m.S">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/common/startup/ARMCMx/compilers/GCC/crt1.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/common/startup/ARMCMx/compilers/GCC/vectors.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/common/startup/ARMCMx/compilers/GCC/vectors.h">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/osal/rt/osal.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/osal/rt/osal.h">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/STM32/LLD/DMAv1/stm32_dma.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/STM32/LLD/DMAv1/stm32_dma.h">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/STM32/LLD/GPIOv1/hal_pal_lld.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/STM32/LLD/GPIOv1/hal_pal_lld.h">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/STM32/LLD/TIMv1/hal_pwm_lld.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/STM32/LLD/TIMv1/hal_pwm_lld.h">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/STM32/LLD/TIMv1/hal_st_lld.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/STM32/LLD/TIMv1/hal_st_lld.h">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/STM32/LLD/USARTv1/hal_serial_lld.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/STM32/LLD/USARTv1/hal_serial_lld.h">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/STM32/LLD/USBv1/hal_usb_lld.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/STM32/LLD/USBv1/hal_usb_lld.h">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/STM32/STM32F1xx/hal_adc_lld.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/STM32/STM32F1xx/hal_adc_lld.h">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/STM32/STM32F1xx/hal_lld.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/STM32/STM32F1xx/hal_lld.h">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/STM32/STM32F1xx/stm32_isr.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/STM32/STM32F1xx/stm32_isr.h">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/common/ARMCMx/nvic.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/ports/common/ARMCMx/nvic.h">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/src/hal.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/src/hal_adc.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/src/hal_buffers.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/src/hal_pal.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/src/hal_pwm.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/src/hal_queues.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/src/hal_serial.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/src/hal_serial_usb.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/src/hal_st.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/hal/src/hal_usb.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/rt/src/chcond.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/rt/src/chdebug.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/rt/src/chdynamic.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/rt/src/chevents.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/rt/src/chmsg.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/rt/src/chmtx.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/rt/src/chregistry.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/rt/src/chschd.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/rt/src/chsem.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/rt/src/chstats.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/rt/src/chsys.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/rt/src/chthreads.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/rt/src/chtm.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/rt/src/chtrace.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/ChibiOS_17.6.3/os/rt/src/chvt.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/adc_test/board/board.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/adc_test/board/board.h">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/adc_test/config/usbcfg.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/adc_test/config/usbcfg.h">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/adc_test/main.c">
+			<Option target="opto_test.elf"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/adc_test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/adc_test/STM32F103x8.ld">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/adc_test/../stm32-cmake/cmake/gcc_stm32.cmake">
+			<Option virtualFolder="CMake Files\..\stm32-cmake\cmake\"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/adc_test/../stm32-cmake/cmake/gcc_stm32f1.cmake">
+			<Option virtualFolder="CMake Files\..\stm32-cmake\cmake\"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/adc_test/../stm32-cmake/cmake/FindChibiOS.cmake">
+			<Option virtualFolder="CMake Files\..\stm32-cmake\cmake\"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/adc_test/../stm32-cmake/cmake/ChibiOS/ChibiOS17.cmake">
+			<Option virtualFolder="CMake Files\..\stm32-cmake\cmake\ChibiOS\"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/adc_test/../stm32-cmake/cmake/ChibiOS/ChibiOS17_LD.cmake">
+			<Option virtualFolder="CMake Files\..\stm32-cmake\cmake\ChibiOS\"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/adc_test/../stm32-cmake/cmake/ChibiOS/ChibiOS17_Kernel.cmake">
+			<Option virtualFolder="CMake Files\..\stm32-cmake\cmake\ChibiOS\"/>
+		</Unit>
+		<Unit filename="/home/captain/McuWorkspace/adc_test/../stm32-cmake/cmake/ChibiOS/ChibiOS17_HAL.cmake">
+			<Option virtualFolder="CMake Files\..\stm32-cmake\cmake\ChibiOS\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
